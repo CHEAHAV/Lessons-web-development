@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    line-height: 10px;
+    text-shadow: 3px 3px 3px red;
+}
+.box{
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    overflow: scroll;
+}
+.box p{
+    color: red;
+    font-size: 20px;
+    font-family: "khmer os";
+}

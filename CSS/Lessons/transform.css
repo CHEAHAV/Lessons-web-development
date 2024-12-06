@@ -1,0 +1,49 @@
+body{
+    background-color: cyan;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: auto;
+}
+.box:hover{
+    transform: translate(400px, 400px);
+    background-color: red;
+    transition: 2s;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color:brown;
+    margin-left: 200px;
+}
+.box1:hover{
+    transform: rotate(50deg);
+    background-color: blue;
+    transition: 1s;
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color:green;
+    margin-left: 700px;
+    float: left;
+}
+.box2:hover{
+    background-color:yellow;
+    transition: 1s;
+    transform: scale(120%, 120%);
+}
+.box3{
+    height: 300px;
+    width: 300px;
+    background-color:gold;
+    margin-left:30px;
+    float: left;
+}
+.box3:hover{
+    background-color:white;
+    transition: 1s;
+    transform: skew(50deg)
+}

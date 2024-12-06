@@ -1,0 +1,15 @@
+body{
+    background-color: blue;
+    background-image: url(../image/spiderman.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.box{
+    height: 1000px;
+    width: 500px;
+    margin-left: 500px;
+    background-image: url(../image/batman.jpg);
+    background-size: cover;
+    background-position: center;
+
+}

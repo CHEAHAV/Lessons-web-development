@@ -1,0 +1,13 @@
+.box{
+    border-width: 10px;
+    border-style: double;
+    border-color: blue;
+    border-radius: 10px;/* កែង */
+}
+#id{
+    border: 10px solid red;
+    border-radius: 15px;
+}
+.c{
+    border-bottom: 10px ridge yellow;
+}

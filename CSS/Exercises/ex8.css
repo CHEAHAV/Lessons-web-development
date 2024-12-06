@@ -1,0 +1,88 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+}
+.container .box1{
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box1 .one{
+    width: 100%;
+    height: 48%;
+    background-color: gray;
+}
+.box1 .two{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+    margin-top: 14%;
+}
+.container .box2{
+    width: 78%;
+    height: 100%;
+    background-color: red;
+    margin-left: 2%;
+    float: left;
+}
+.box2 .one{
+    width: 96%;
+    height: 20%;
+    background-color: blue;
+    margin: 2%;
+}
+.box2 .two{
+    width: 66%;
+    height: 72%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.two .row1{
+    width: 100%;
+    height: 48.5%;
+}
+.row1 .a{
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+}
+.row1 .b{
+    width: 77%;
+    height: 100%;
+    background-color: cyan;
+    float: left;
+    margin-left: 3%;
+}
+.two .row2{
+    width: 100%;
+    height: 48.5%;
+    margin-top: 3%;
+}
+.row2 .a{
+    width: 77%;
+    height: 100%;
+    background-color: brown;
+    margin-right: 3%;
+    float: left;
+}
+.row2 .b{
+    width: 20%;
+    height: 100%;
+    background-color: cornflowerblue;
+    float: left;
+}
+.box2 .three{
+    width: 28%;
+    height: 72%;
+    background-color: gray;
+    float: left;
+    margin-right: 2%;
+}
