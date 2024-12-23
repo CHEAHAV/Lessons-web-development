@@ -1,0 +1,32 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: auto;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes box{
+    0%{
+        background-color: yellow;
+        transform: rotate(57deg);
+    }
+    25%{
+        background-color: cyan;
+        transform: translate(300px, 300px);
+    }
+    50%{
+        background-color: blue;
+        transform: scale(150%);
+    }
+    75%{
+        background-color: brown;
+        transform: translateY(300px);
+    }
+    100%{
+        background-color: gold;
+        transform: skew(50deg);
+    }
+}

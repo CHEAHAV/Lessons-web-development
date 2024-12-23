@@ -1,0 +1,26 @@
+div{
+    width: 400px;
+    height: 200px;
+    background-color: cyan;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+}
+h1{
+    color: brown;
+}
+.k{
+    width: 1300px;
+    height: 200px;
+    background-color: cyan;
+}
+span{
+    margin: 0px 20px;
+}
+h3{
+    text-transform: uppercase;
+}

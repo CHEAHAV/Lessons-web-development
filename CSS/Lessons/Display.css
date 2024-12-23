@@ -1,0 +1,53 @@
+.box{
+    width: 1000px;
+    height: 1000px;
+    background-color: cyan;
+    margin: auto;
+}
+#direction{
+    width: 800px;
+    height: 220px;
+    background-color: blue;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    /*
+     row = left, row-reverse = right
+     column = top, column-reverse = bottom
+    */
+}
+#dir{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    margin: 2px;
+}
+
+#justify{
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    /* 
+    start = left, center = center, end = right
+    space-around = គម្លាតជុំវិញស្មើគ្នា
+    space-between = គម្លាតចន្លោះកណ្ដាលស្មើៗគ្នា
+    space-evenly = គម្លាតស្មើៗគ្នា
+    */
+}
+
+#align{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: blue;
+    display: flex;
+    align-items:center;
+    /* 
+    start = top, center = center, end = bottom
+    */
+}

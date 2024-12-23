@@ -1,0 +1,23 @@
+.container{
+    background-color: red;
+    width: 1500px;
+    overflow: hidden;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* repeat(4, 1fr) is 4 column and 4 width equel too */
+    /* grid-template-columns: repeat(4, 100px); */
+    /* grid-template-columns: 100px 100px 100px 100px;
+        equel repeat (4, 100px), 4column and 100px width
+    */
+    row-gap: 10px;
+    column-gap: 10px;
+    /* gap: 10px; aply all row and column */
+}
+.container>div{
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

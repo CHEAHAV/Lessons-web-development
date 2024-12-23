@@ -1,0 +1,46 @@
+.container{
+    width: 1500px;
+    overflow: hidden;
+    background-color: red;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "box1 box1 box1 box1 "
+                         "box2 box2 box3 box3"
+                         "box4 box5 box5 box5"
+                         "box6 box6 box6 box7"
+                         "box8 box8 box8 box8";
+    /* 4 column and 5 row */
+}
+.container>div{
+    height: 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+.box4{
+    grid-area: box4;
+}
+.box5{
+    grid-area: box5;
+}
+.box6{
+    grid-area: box6;
+}
+.box7{
+    grid-area: box7;
+}
+.box8{
+    grid-area: box8;
+}

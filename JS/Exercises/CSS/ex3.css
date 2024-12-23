@@ -1,0 +1,47 @@
+.menu{
+    width: 50%;
+    overflow: hidden;
+    background-color: blue;
+    margin: auto;
+}
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.menu ul li {
+   padding: 20px 0px;
+   width: 135px;
+   justify-content: center;
+   text-align: center;
+}
+.menu ul li:hover{
+    background-color: rgb(11, 11, 64);
+}
+.menu ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.sub-menu{
+    width: 135px;
+    background-color: red;
+    position: absolute; 
+    margin-top: 20px;
+    display: none;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+}
+.sub-menu ul{
+    display:flex;
+    flex-direction: column;
+}
+.sub-menu ul li:hover{
+    background-color: brown;
+}

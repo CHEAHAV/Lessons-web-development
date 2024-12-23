@@ -1,0 +1,27 @@
+.box{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    /* 
+    inline-block : have width hight and directions
+                   frome left ot right
+    inline : don't know width hight and directions
+             frome left to right
+    block : directions frome top to bottom
+    */
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: yellow;
+}
+.box4{
+    background-color: violet;
+}
+.box5{
+    background-color: green;
+}

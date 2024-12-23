@@ -1,0 +1,52 @@
+.container{
+    background-color: black;
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+    padding: 10px;
+}
+.container .one{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.container .two{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.container .three{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.picture{
+    height: 100%;
+    width: 35%;
+    background-color: brown;
+}
+.content{
+    height: 100%;
+    width: 64%;
+    background-color: violet;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top{
+    background-color: cyan;
+    height: 39%;
+    border-bottom: 2px solid black;
+}
+.date{
+    background-color: blueviolet;
+    height: 20%;
+    border-bottom:2px solid black;
+}
+.bottom{
+    background-color: bisque;
+    height: 39%;
+}

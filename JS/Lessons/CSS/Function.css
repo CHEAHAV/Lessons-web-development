@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    font-weight: bold;
+}
+input{
+    color: blue;
+
+}
+#display{
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+}
+#pic{
+    width: 400px;
+    height: 400px;
+}
