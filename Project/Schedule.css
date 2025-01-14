@@ -1,0 +1,238 @@
+body{
+    background-image: url(../Project/image/background.jpg);
+    background-attachment: scroll;
+    object-fit: fill;
+    background-size: cover;
+}
+section{
+    border: 10px solid brown;
+    background-color:rgb(149, 198, 238);
+}
+.english{
+    width: 1500px;
+    overflow: hidden;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+}
+#title{
+    width: 70%;
+    height: 100px;
+    border: 10px double gray;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+#title h1{
+    color: rebeccapurple;
+    font-size: 50px;
+    position: relative;
+    animation: ltr 7s linear infinite;
+}
+@keyframes ltr {
+    0% {
+        transform: translateX(0%);
+    }
+    25%{
+        color: brown;
+    }
+    50%{
+        transform: translateX(90%);
+        color: gold;
+    }
+    75%{
+        color: green;
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+#image{
+    width: 300px;
+    height: 300px;
+    border: 10px ridge red;
+    border-radius: 360px;
+    margin-left: 580px;
+    margin-top: 10px;
+}
+#name{
+    width: 100%;
+    height: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: play;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: blue;
+}
+@keyframes play{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: gold;
+    }
+    75%{
+        color: green;
+    }
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+table{
+    width: 98%;
+    overflow: hidden;
+    border: 5px solid gray;
+    margin: auto;
+}
+th{
+   border: 3px solid blue;
+   text-align: center;
+}
+td{
+    border: 3px solid green;
+    text-align: center;
+}
+.footer{
+    width: 98%;
+    overflow: hidden;
+}
+#date{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#me{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 60px;
+    animation-name: play;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.khmer{
+    width: 1500px;
+    overflow: hidden;
+    margin: auto;
+}
+.kheader{
+    width: 100%;
+    overflow: hidden;
+}
+#title{
+    width: 70%;
+    height: 100px;
+    border: 10px double gray;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+#title h1{
+    color: rebeccapurple;
+    font-size: 50px;
+    position: relative;
+    animation: kltr 7s linear infinite;
+    font-family: 'Khmer OS Moul Light';
+}
+@keyframes kltr {
+    0% {
+        transform: translateX(0%);
+    }
+    25%{
+        color: brown;
+    }
+    50%{
+        transform: translateX(65%);
+        color: gold;
+    }
+    75%{
+        color: green;
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+#image{
+    width: 300px;
+    height: 300px;
+    border: 10px ridge red;
+    border-radius: 360px;
+    margin-left: 580px;
+    margin-top: 10px;
+}
+#name{
+    width: 100%;
+    height: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: play;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: blue;
+    font-family: 'khmer os';
+}
+@keyframes play{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: gold;
+    }
+    75%{
+        color: green;
+    }
+}
+.kcontainer{
+    width: 100%;
+    overflow: hidden;
+}
+table{
+    width: 98%;
+    overflow: hidden;
+    border: 5px solid gray;
+    margin: auto;
+}
+.khmer th{
+   border: 3px solid blue;
+   text-align: center;
+   font-family: 'khmer os';
+}
+.khmer td{
+    border: 3px solid green;
+    text-align: center;
+    font-family: 'khmer os';
+}
+.kfooter{
+    width: 98%;
+    overflow: hidden;
+}
+.khmer #date{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'khmer os';
+}
+.khmer #me{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 60px;
+    animation-name: play;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-family: 'khmer os';
+}

@@ -1,0 +1,176 @@
+body{
+    color: cadetblue;
+}
+section{
+    width: 1200px;
+    overflow: hidden;
+    border: 5px solid black;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+}
+.header .title{
+    width: 70%;
+    height: 300px;
+    float: left;
+}
+.header .img{
+    width: 30%;
+    height: 300px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img #photos{
+    width: 200px;
+    height: 250px;
+    border: 5px double blue;
+}
+.title h1{
+    color: black;
+    font-family: 'Khmer OS Moul Light';
+}
+.title #a{
+    margin-left: 480px;
+    animation: play 5s  infinite;
+}
+.title #b{
+    margin-left: 440px;
+}
+.title #c{
+    height: 30px;
+    width: 150px;
+    margin-left: 530px;
+}
+.title #d{
+    margin-top: 60px;
+    margin-left: 510px;
+    animation: play 5s  infinite;
+}
+@keyframes play {
+    0%{
+        color: blue;
+    }
+    25%{
+        color:red;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: blueviolet;
+    }
+    100%{
+        color: gold;
+    }
+}
+.container h1{
+    color: black;
+    font-family: 'khmer os';
+    font-size: 20px;
+}
+.container strong{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+    font-family: 'Khmer OS Moul Light';
+}
+.footer h1{
+    color: black;
+    font-family: 'khmer os';
+    font-size: 20px;
+    text-align: end;
+}
+#name{
+    margin-right: 200px;
+}
+.footer strong{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Khmer OS Moul Light';
+    text-align: end;
+    color: blue;
+}
+#names{
+    margin-right: 210px;
+    animation: play 5s  infinite;
+}
+/* English */
+
+.eheader{
+    width: 100%;
+    overflow: hidden;
+}
+.eheader .title{
+    width: 70%;
+    height: 300px;
+    float: left;
+}
+.eheader .img{
+    width: 30%;
+    height: 300px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img #photos{
+    width: 200px;
+    height: 250px;
+    border: 5px double blue;
+}
+.eheader .title h1{
+    color:black;
+    font-family: 'Khmer OS Moul Light';
+}
+.eheader .title #a{
+    margin-left: 480px;
+}
+.eheader .title #b{
+    margin-left: 485px;
+}
+.eheader .title #c{
+    height: 30px;
+    width: 150px;
+    margin-left: 510px;
+}
+.eheader .title #d{
+    margin-top: 60px;
+    margin-left: 550px;
+}
+.econtainer h1{
+    color: black;
+    font-family: 'khmer os';
+    font-size: 20px;
+}
+.econtainer strong{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Khmer OS Moul Light';
+}
+.efooter h1{
+    color: black;
+    font-family: 'khmer os';
+    font-size: 20px;
+    text-align: end;
+}
+.efooter #name{
+    margin-right: 180px;
+}
+.efooter strong{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Khmer OS Moul Light';
+    text-align: end;
+    color: blue;
+    font-weight: bold;
+}
+.efooter #names{
+    margin-right: 145px;
+    animation: play 5s  infinite;
+}

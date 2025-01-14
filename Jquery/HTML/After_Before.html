@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After and Before</title>
+    <script src="../Jquery.js"></script>
+</head>
+<style>
+    .box1 {
+        width: 300px;
+        height: 300px;
+        background-color: cyan;
+        float: left;
+        margin: 10px;
+    }
+
+    .box2 {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        float: left;
+        margin: 10px;
+    }
+</style>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <input type="button" value="After" id="btn1">
+    <input type="button" value="Before" id="btn2">
+</body>
+<script>
+    $(document).ready(function () {
+        const box = `
+        <div class="box1"></div>
+        `;
+        $('#btn1').click(function(){
+            $('.box1').after(box);
+        });
+        const box1 = `
+        <div class="box2"></div>
+        `;
+        $('#btn2').click(function(){
+            $('.box2').before(box1);
+        });
+    });
+</script>
+
+</html>

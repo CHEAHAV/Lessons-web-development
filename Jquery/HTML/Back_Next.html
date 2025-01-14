@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../Jquery.js"></script>
+    <link rel="stylesheet" href="../CSS/Back_Next.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="btn-next">Next</div>
+        <div class="btn-back">Back</div>
+        <div class="pagination">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <img src="../../image/spiderman.jpg" alt="">
+            </div>
+            <div class="slider">
+                <img src="../../image/ban10.jpg" alt="">
+            </div>
+            <div class="slider">
+                <img src="../../image/Ironman.jpg" alt="">
+            </div>
+            <div class="slider">
+                <img src="../../image/Superman.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        var index = 0;
+        var slider = $('.slider');
+        var box = $('.box');
+        var picture = slider.length;
+        slider.hide();
+        slider.eq(index).show();
+        box.eq(index).css({ 'background-color': "red", 'color': "white" });
+        $('.btn-next').click(function () {
+            slider.eq(index).hide();
+            box.eq(index).css({ 'background-color': "blueviolet", 'color': "black" });
+            index++;
+            if (index >= picture) {
+                index = 0;
+            }
+            slider.eq(index).show();
+            box.eq(index).css({ 'background-color': "red", 'color': "white" });
+        });
+
+        $('.btn-back').click(function () {
+            slider.eq(index).hide();
+            box.eq(index).css({ 'background-color': "blueviolet", 'color': "black" });
+            index--;
+            if (index < 0) {
+               index = picture - 1;
+            }
+            slider.eq(index).show();
+            box.eq(index).css({ 'background-color': "red", 'color': "white" });
+        });
+
+        setInterval(auto,2000);
+        function auto(){
+            slider.eq(index).hide();
+            box.eq(index).css({ 'background-color': "blueviolet", 'color': "black" });
+            index++;
+            if (index >= picture) {
+                index = 0;
+            }
+            slider.eq(index).show();
+            box.eq(index).css({ 'background-color': "red", 'color': "white" });
+        }
+    });
+</script>
+
+</html>

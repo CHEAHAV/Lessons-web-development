@@ -1,0 +1,12 @@
+body{
+    background-color: cyan;
+}
+h1{
+    margin: 10px;
+    margin-left: 80px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}

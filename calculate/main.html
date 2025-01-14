@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link rel="stylesheet" href="../calculate/style.css">
+    <script src="../calculate/script.js"></script>
+</head>
+
+<body>
+    <h1>Calculate</h1>
+    <div class="container">
+        <span>Value1 : </span>
+        <input type="text" value="" name="Value1" id="value1">
+        <br><br>
+        <span>Value2 : </span>
+        <input type="text" value="" name="Value2" id="value2">
+        <br><br>
+        <span>Result : </span>
+        <input type="text" value="" name="Result" id="result">
+        <input type="button" value="Clear" onclick="clearFields()">
+        <br><br>
+        <input type="button" value="Add" onclick="add()">
+        <input type="button" value="Subtract" onclick="subtract()">
+        <input type="button" value="Multiply" onclick="multiply()">
+        <input type="button" value="Divide" onclick="divide()">
+    </div>
+</body>
+
+</html>

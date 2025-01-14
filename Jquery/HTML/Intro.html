@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction Jquery</title>
+    <script src="../Jquery.js"></script>
+</head>
+<style>
+.contain{
+    width: 300px;
+    height: 300px;
+    background-color: cyan;
+}
+</style>
+<body>
+    <div class="contain"><h1>Hello HTML</h1></div><br>
+    <input type="button" value="change" id="btn">
+    <input type="button" value="hide" id="btn1">
+    <input type="button" value="show" id="btn2">
+    <input type="button" value="toggle" id="btn3">
+    <input type="button" value="slideUp" id="btn4">
+    <input type="button" value="slideDown" id="btn5">
+    <input type="button" value="slideToggle" id="btn6">
+    <input type="button" value="fadeOut" id="btn7">
+    <input type="button" value="fadeIn" id="btn8">
+    <input type="button" value="fadetoggle" id="btn9"><br><br>
+    <input type="text" name="text" id="txt">
+    <input type="button" value="Text" id="btn10"><br><br>
+    <img src="../../image/Ironman.jpg" alt="">
+    <input type="button" value="change" id="btn11">
+</body>
+<script>
+    //Struture Jquery
+    $(document).ready(function(){
+
+        $('#btn').click(function(){
+            $('.contain').html("Hello Jquery");
+        });
+
+        $('#btn1').click(function(){
+            $('.contain').hide();
+        });
+
+        $('#btn2').click(function(){
+            $('.contain').show();
+        });
+
+        $('#btn3').click(function(){
+            $('.contain').toggle();
+        });
+
+        $('#btn4').click(function(){
+            $('.contain').slideUp();
+        });
+
+        $('#btn5').click(function(){
+            $('.contain').slideDown();
+        });
+
+        $('#btn6').click(function(){
+            $('.contain').slideToggle();
+        });
+
+        $('#btn7').click(function(){
+            $('.contain').fadeOut(1000);
+        });
+
+        $('#btn8').click(function(){
+            $('.contain').fadeIn(1000);
+        });
+
+        $('#btn9').click(function(){
+            $('.contain').fadeToggle(1000);
+        });
+
+        $('#btn10').click(function(){
+            $('#txt').val("Hello Jquery");
+        })
+
+        $('#btn11').click(function(){
+            $('img').attr('src','../../image/ban10.jpg')
+        })
+    });
+</script>
+</html>
