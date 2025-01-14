@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var arrheader = [{
         'title': "Schedule for my day",
-        'image': "../Project/image/me.jpg",
-        'name': "Name : Chhum lyna",
+        'image': "../Project/image/sunset.jpg",
+        'name': "Name : IT CHEAHAV",
     }
     ];
     var arrschedule = [{
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var arrfooter = [
         {
             'date': "Monday 21 December 2024",
-            'me': "Chhum Lyna",
+            'me': "IT CHEAHAV",
         }
     ];
 
@@ -122,8 +122,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var arrkheader = [{
         'title': "កាលវិភាគប្រចាំថ្ងៃរបស់ខ្ញុំ",
-        'image': "../Project/image/me.jpg",
-        'name': "ឈ្មោះ ៖ ឈុំ លីណា",
+        'image': "../Project/image/sunset.jpg",
+        'name': "អ៊ិត ជាហាវ",
     }
     ];
     var arrkschedule = [{
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var arrkfooter = [
         {
             'date': "ថ្ងៃច័ន្ទ ទី២១ ខែធ្នូ ឆ្នាំ២០២៤",
-            'me': "ឈុំ លីណា",
+            'me': "អ៊ិត ជាហាវ",
         }
     ];
 
